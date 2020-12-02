@@ -1,0 +1,26 @@
+{
+  "name": "stadiumbook",
+  "version": "1.0.0",
+  "description": "application used for booking private football fields",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client":"npm start --prefix client",
+    "server": "nodemon server.js",
+    "dev":"concurrently \"npm run server \" \"npm run client\""
+  },
+  "author": "walid klai",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}

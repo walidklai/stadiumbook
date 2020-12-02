@@ -1,0 +1,4 @@
+{
+    "DB_PATH":"mongodb+srv://walid:walid@stadiumbookdb.knem4.mongodb.net/stadiumbookdb?retryWrites=true&w=majority",
+    "jwtSecret":"'aae215b9fef2deca937087e975255151e535e8285010dcfff5f66e8f2e69b463da5540b384bb07fbab914241fc9a23ef4372bb62fbad'"
+}
